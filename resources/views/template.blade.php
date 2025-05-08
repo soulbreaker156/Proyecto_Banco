@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>|
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
         <link href="{{ mix('js/app.js') }}" rel="stylesheet">
         <title>@yield('title')</title>
     </head>
-    <body class="bg-[#332d28]">
-        <main>
+    <body class=" flex h-screen bg-[#dbcbdf]">
+        <x-navbar />
+        <main class=" flex justify-center w-4/5 p-6">
+            <h1 class="text-4xl">@yield('titulo')</h1>
             @yield('contenido')
         </main>
     </body>
