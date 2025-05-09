@@ -14,8 +14,9 @@
             @yield('contenido')
              <x-footer />
         </main>
-       
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/barras.js"></script>
 </html>
 
 
