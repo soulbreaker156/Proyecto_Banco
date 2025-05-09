@@ -7,12 +7,14 @@
         <link href="{{ mix('js/app.js') }}" rel="stylesheet">
         <title>@yield('title')</title>
     </head>
-    <body class=" flex h-screen bg-[#dbcbdf]">
+    <body class=" flex bg-[#dbcbdf]">
         <x-navbar />
-        <main class=" flex justify-center w-4/5 p-6">
+        <main class=" flex h-screen justify-center w-[85%] p-2 relative">
             <h1 class="text-4xl">@yield('titulo')</h1>
             @yield('contenido')
+             <x-footer />
         </main>
+       
     </body>
 </html>
 
