@@ -4,7 +4,7 @@
    </div>
 
      <ul class=" flex flex-col text-2xl gap-1">
-        <li><a href="#">Inicio</a></li>
+        <li><a href="/">Dashboard</a></li>
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Inicio</a></li>
