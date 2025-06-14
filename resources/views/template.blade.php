@@ -10,13 +10,15 @@
     <body class=" flex bg-[#dbcbdf]">
         <x-navbar />
         <main class=" flex h-screen justify-center w-[85%] p-2 relative">
-            <h1 class="text-4xl">@yield('titulo')</h1>
+            <h1 class="text-4xl text-white">@yield('titulo')</h1>
             @yield('contenido')
              <x-footer />
         </main>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="../js/barras.js"></script>
+    <script src="{{ asset('js/lineal.js') }}"></script>
+    <script src="{{ asset('js/circular.js') }}"></script>
 </html>
 
 
